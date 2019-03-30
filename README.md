@@ -1,24 +1,12 @@
-# api-php-slim-framework
-API RESTful com PHP Slim Framework
+# **REST API**
 
-## Instalando
-```shell
-git clone https://github.com/ClubeDosGeeksCoding/api-php-slim-framework.git
-```
-Instale as dependencias com composer
-```shell
-composer install
-```
+# SOBRE
 
-## Banco de dados
-```sql
-CREATE DATABASE api;
-CREATE TABLE pessoa (
-	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	nome VARCHAR(30) NOT NULL,
-	email VARCHAR(50),
-	dt_cadastro DATETIME DEFAULT CURRENT_TIMESTAMP
-)
-```
+Uma REST API construída em PHP a partir do Slim Framework
 
-## [Tutorial](http://clubedosgeeks.com.br/programacao/php/api-restful-com-php-e-slim-framework)
+# ESTRUTURA DA PASTA
+
+- Controllers - Controles das ações de um crud, listar, salvar, editar, excluir
+- Templates - É um arquivo de template
+- Index.php - É o arquivo principal da aplicação onde faremos o sistemas de rotas para as controllers
+- .htaccess - Arquivo de configuração de diretrizes
